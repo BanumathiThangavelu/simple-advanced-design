@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  padding: 0 140px;
+  font-size: 15px;
+}
+.logo {
+  width: 65%;
+  height: 65%;
+}
+ul {
+  margin-top: 40px;
+}
+.nav-item {
+  padding: 0 7px;
+}
+#Tryfree {
+  border: 2px solid grey;
+  border-radius: 20px;
+  padding: 0.2rem 1rem;
+}
+.row {
+  padding: 0 50px;
+  align-items: center;
+  max-width: 100%;
+  max-height: auto;
+  margin-top: -120px;
+}
+.content-part {
+  align-items: center;
+  padding: 30px 30px;
+}
+.content-part h1 {
+  font-size: 55px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 35px;
+  padding: 10px;
+}
+.content-part p {
+  font-size: 13px;
+  margin-left: 40px;
+  padding: 10px;
+}
+.header-image img {
+  max-width: 130%;
+  max-height: 130%;
+  padding: 20px;
+}
+.button-shape {
+  margin-left: 50px;
+}
+.button-design {
+  border-radius: 30px;
+  padding: 0.7rem 0.8rem;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(241, 76, 103);
+}
+/*.card-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3px;
+}*/
+#second-page .row {
+  font-family: "Poppins", sans-serif;
+  margin: 50px;
+  padding-top: 50px;
+}
+#second-page .card {
+  width: 250px;
+  height: 300px;
+}
+#second-page .row h2 {
+  font-size: 17px;
+  color: rgb(53, 51, 51);
+  font-weight: bolder;
+}
+#second-page .row p {
+  font-size: small;
+  font-weight: 100px;
+  color: #777;
+}
+#second-page .card-img-top {
+  width: 30px;
+  height: 30px;
+  margin-left: 60px;
+}
+.content-row .row {
+  margin: 60px 0px;
+}
+.content-row .hand-img {
+  padding-right: 30px;
+  float: left;
+}
+.content-row .group-img {
+  background: #fff4f5;
+  background-position: center;
+  padding: 25px;
+}
+.content-row h1 {
+  font-size: 45px;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+.content-row ul {
+  font-size: 15px;
+  color: rgb(51, 50, 50);
+  margin-top: -10px;
+}
+.content-row p {
+  font-size: 15px;
+  color: #777;
+  padding: 10px 15px;
+}
+.content-row button {
+  margin: 20px;
+}
+.image-row .row {
+  margin: 35px;
+  margin-top: -50px;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 100px;
+}
+.image-row h1 {
+  font-size: 45px;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+.image-row .main-head p {
+  font-size: 15px;
+  color: #777;
+  padding: 10px 15px;
+}
+.sub-head1 h4::before {
+  content: url("Assets/Icon\ awesome-bell.png");
+}
+.sub-head2 h4::before {
+  content: url(Assets/Icon\ awesome-user-alt.png);
+}
+.sub-head3 h4::before {
+  content: url(Assets/Icon\ ionic-md-thumbs-up.png);
+}
+.second-head p {
+  font-size: 13px;
+  color: #777;
+  padding: 10px 15px;
+  font-family: "Poppins", sans-serif;
+}
+.second-head h4 {
+  font-weight: bold;
+  font-size: large;
+  margin-left: 40px;
+}
+.image-row .mob-img {
+  width: 40rem;
+
+  margin-left: -50px;
+  margin-bottom: -20px;
+}
+.pink-row {
+  background: url(Assets/pink-back.png);
+  background-repeat: no-repeat;
+
+  color: white;
+  background-size: cover;
+  margin-top: 100px;
+}
+.pink-row .ph-img {
+  width: 30rem;
+  margin-left: -20px;
+  margin-bottom: 60px;
+  margin-top: -60px;
+}
+.pink-row h1 {
+  font-size: 45px;
+  font-weight: bold;
+  padding: 0 70px;
+  margin-top: 0px;
+  font-family: sans-serif;
+}
+.pink-row p {
+  font-size: 15px;
+  padding: 10px 70px;
+}
+.pink-row .button-design {
+  color: rgb(241, 76, 103);
+  background-color: white;
+  margin: 0 70px;
+}
+.pad-row .row {
+  margin: 50px;
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+}
+.pad-row .qn-img {
+  background: #fff4f5;
+  padding: 50px;
+}
+.pad-row .pad-img {
+  width: 90%;
+  height: 90%;
+  margin-left: 30px;
+  margin-top: 200px;
+}
+.pad-row h1 {
+  font-size: 45px;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+.pad-row p {
+  font-size: 15px;
+  color: #777;
+  padding: 10px 15px;
+}
+.pad-row .pin-let h4 {
+  color: rgb(241, 76, 103);
+  font-weight: bold;
+  font-size: large;
+  margin-left: 15px;
+}
+.pad-row .pin-let p {
+  font-size: 13px;
+  color: #777;
+  padding: 10px 15px;
+  font-family: "Poppins", sans-serif;
+}
+#third-partition .survey {
+  background-color: rgb(241, 76, 103);
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  margin: 50px 100px;
+  height: 220px;
+  width: 900px;
+}
+#third-partition .survey h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+#third-partition .survey h4 {
+  font-size: small;
+}
+#third-partition .contact h1 {
+  font-size: 45px;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+#third-partition .contact p {
+  font-size: 15px;
+  color: #777;
+  padding: 10px 300px;
+}
+
+.footer {
+  margin-top: 270px;
+}
+.contact-area {
+  background-color: rgb(241, 76, 103);
+  color: white;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  height: 290px;
+}
+.contact-area .footer-middle {
+  margin-top: 80px;
+}
+.contact-area .footer-middle .title-heading {
+  margin-bottom: -25px;
+}
+.contact-area .footer-middle ul li a {
+  color: rgb(238, 229, 229);
+  padding: 3px;
+}
+.copyright-area {
+  background-color: black;
+  padding: 13px 0;
+  padding-left: 55px;
+}
+.copyright-area .copy-text {
+  font-size: 13px;
+  color: white;
+  margin-top: 130px;
+}
+.copyright-area .copy-menu li {
+  display: inline-block;
+  font-size: 12px;
+  padding: 3px;
+  margin: 0;
+  color: white;
+  margin-top: 100px;
+  font-family: "Poppins", sans-serif;
+}
+.copyright-area .white-logo {
+  margin-top: 120px;
+}

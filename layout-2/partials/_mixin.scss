@@ -1,0 +1,9 @@
+@mixin h1 {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+@mixin p {
+  font-size: 15px;
+  color: map-get($map: $alert-colors, $key: "fontp");
+}
